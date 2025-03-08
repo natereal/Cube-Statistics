@@ -4,3 +4,4 @@ URL = "https://docs.google.com/spreadsheets/d/18OMJ9RZphp0flKn2Cym7HjDogvbS4a5ET
 
 results <- read_sheet(URL, sheet = "Results")
 decks   <- read_sheet(URL, sheet = "Decklists")
+cube    <- read_sheet(URL, sheet = "Cube")
